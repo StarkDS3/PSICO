@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import LinkCustom from "../components/linkCustom";
 import SobreNosotros from "../components/buttons/sobreNosotros";
+import Register from "../components/buttons/register";
 
 const Home = () => {
   return (
@@ -38,6 +39,26 @@ const Home = () => {
               apoyo. No se rindan, confíen en su capacidad para superar
               obstáculos y ámense a sí mismos en cada paso del camino.
             </p>
+          </div>
+        </div>
+        {/* mini Seccion de nosotros */}
+        <div className="w-full h-150 bg-white flex justify-evenly items-center">
+          <img
+            className="w-100 h-100 flex flex-col justify-center "
+            src="public/0GAT5MY5I5T75UVN.png"
+          />
+          <div className="w-100 h-full flex flex-col justify-center gap-5 ">
+            <p className="text-4xl font-bold ">SOBRE NOSOTROS</p>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <Register />
           </div>
         </div>
       </div>
