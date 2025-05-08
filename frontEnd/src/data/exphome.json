@@ -1,0 +1,19 @@
+[    
+    { 
+    "id": 1, 
+    "titulo": "AÑOS 2+", 
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    
+    { 
+    "id": 2, 
+    "titulo": "HORAS 9000+ ", 
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+
+    { 
+    "id": 3, 
+    "titulo": "INVERSIONES K$", 
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]

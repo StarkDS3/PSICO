@@ -5,6 +5,8 @@ import SobreNosotros from "../components/buttons/sobreNosotros";
 import Register from "../components/buttons/register";
 import CardTestimonios from "../components/cardTestimonios";
 import testmonios from "../data/testimonios.json";
+import expe from "../data/exphome.json";
+import Experience from "../components/experience";
 
 const Home = () => {
   return (
@@ -63,6 +65,8 @@ const Home = () => {
             <Register />
           </div>
         </div>
+        {/* Mini seccion de experiencia */}
+        <Experience exp={expe} />
         {/* Testimonios */}
         <CardTestimonios testimonio={testmonios} />
       </div>
