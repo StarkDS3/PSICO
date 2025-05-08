@@ -1,0 +1,7 @@
+[    
+    { "id": 1, "nombre": "COCO LYN", "opinion": "Almacenalo Ya ha sido una solución perfecta para guardar nuestras joyas familiares de forma segura. Su atención al cliente y las instalaciones de alta seguridad nos han dado la tranquilidad que necesitamos.", "foto": "/public/psico.png" },
+    
+    { "id": 2, "nombre": "ELVIS NIETO", "opinion": "Decidí almacenar mi coche clásico con Almacenalo Ya y no podría estar más satisfecho. ", "foto": "/public/psico.png" },
+
+    { "id": 3, "nombre": "BILLETICO DICIEMBRE", "opinion": "Invéntame, y oblígale a que te ame como yo, construye con sus años mi existir, hazle sentir lo que en mí te gustó", "foto": "/public/psico.png" }
+]

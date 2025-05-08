@@ -3,6 +3,8 @@ import Navbar from "../components/navbar";
 import LinkCustom from "../components/linkCustom";
 import SobreNosotros from "../components/buttons/sobreNosotros";
 import Register from "../components/buttons/register";
+import CardTestimonios from "../components/cardTestimonios";
+import testmonios from "../data/testimonios.json";
 
 const Home = () => {
   return (
@@ -61,6 +63,8 @@ const Home = () => {
             <Register />
           </div>
         </div>
+        {/* Testimonios */}
+        <CardTestimonios testimonio={testmonios} />
       </div>
     </>
   );
