@@ -7,6 +7,7 @@ import CardTestimonios from "../components/cardTestimonios";
 import testmonios from "../data/testimonios.json";
 import expe from "../data/exphome.json";
 import Experience from "../components/experience";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
@@ -69,6 +70,8 @@ const Home = () => {
         <Experience exp={expe} />
         {/* Testimonios */}
         <CardTestimonios testimonio={testmonios} />
+        {/* footer */}
+        <Footer/>
       </div>
     </>
   );
