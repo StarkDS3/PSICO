@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const LinkCustom = ({ ruta, text, resource, type = "1", logoClass = "w-14" }) => {
+const LinkCustom = ({
+  ruta,
+  text,
+  resource,
+  type = "1",
+  logoClass = "w-70",
+}) => {
   return (
     <Link to={ruta} className="text-black text-base font-medium group w-auto">
       {/* Props del logo */}
-      {resource && <img src={resource} className={`${logoClass} translate-x-15`} />}
+      {resource && (
+        <img src={resource} className={`${logoClass} translate-x-30`} />
+      )}
       {/* Props texto */}
       <p
         className={`${

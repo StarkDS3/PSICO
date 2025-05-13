@@ -8,6 +8,7 @@ import testmonios from "../data/testimonios.json";
 import expe from "../data/exphome.json";
 import Experience from "../components/experience";
 import Footer from "../components/footer";
+import Whatsapp from "../components/buttons/globoWhatsap";
 
 const Home = () => {
   return (
@@ -71,7 +72,9 @@ const Home = () => {
         {/* Testimonios */}
         <CardTestimonios testimonio={testmonios} />
         {/* footer */}
-        <Footer/>
+        <Footer />
+        {/* globo de whatsapp */}
+        <Whatsapp />
       </div>
     </>
   );

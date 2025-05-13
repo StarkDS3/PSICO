@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="w-full h-21 shadow-lg bg-white flex justify-center items-center ">
           {/* Logo */}
           <div>
-            <LinkCustom ruta={"/"} resource={"/public/psico.png"} />
+            <LinkCustom ruta={"/"} resource={"/public/bannerlogob.png"} />
           </div>
 
           {/* Botones */}
